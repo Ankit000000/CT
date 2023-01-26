@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* designing of navbar starts here */
+.topnav{
+    width: 100%;
+    height: 3.5em;
+    margin: 4px 0px 0px 0px;
+    /* border: 1px solid red; */
+}
+
+.topnav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    text-align: center;
+    padding: 9px 27px;
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(163 231 68);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    /* background-color: rgb(109, 109, 109); */
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(0, 0, 0);
+}
+
+#navicon {
+    margin: 0px 0px 0px 0px;
+    float: right;
+}
+
+#navicon h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 0px 0px 0px;
+    width: 323px;
+    color: #1ba145;
+    font-size: 40px;
+}
+
+#navicon_secondhalf {
+    color: #64ff04;
+}
+
+/* designing of header starts here */
+
+#heading_div{
+    width: 100%;
+    height: 100px;
+    margin: 24px 0px 0px 0px; 
+}
+
+#heading_div h1{
+    width: 40%;
+    height: 60px;
+    margin: 30px 0px 0px 432px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 61px;
+    color: rgb(85 255 145);
+}
+
+/* designing of form starts here */
+
+.form{
+    height: 650px;
+    width: 40%;
+    margin: 175px 0px 0px 434px; 
+} 
+
+#username{
+    margin: 0px 0px 0px 108px;
+    
+}
+
+#email{
+    margin: 0px 0px 0px 108px;
+    
+}
+
+#description{
+    margin: 0px 0px 28px 46px;
+    
+}
+
+button{
+    margin: 10px 0px 20px 150px;
+    box-shadow: 0 0 12px 4px rgb(250, 255, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 120px;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 20px;
+    color: rgb(255 255 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.form_heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    width: 130px;
+    margin: 35px 0px 5px 108px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/* designing of image starts here */
+
+#image1{
+    width: 43%;
+    height: 314px;
+    margin: 67px 0px 0px 108px;
+}
+
+#image1 img{
+    width: 100%;
+    height: 330px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* designing of text below image starts here */
+
+#text{
+    width: 290px;
+    height: 300px;
+    margin: -275px 0px 0px 900px;
+}
+
+#p0{
+    margin: 0px 0px 0px 0px;
+    font-size: 36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#p1{
+    margin: 0px 0px 0px 0px;
+    font-size: 72px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(117 255 53);
+}
+#p2{
+    margin: 0px 0px 0px 0px;
+    font-size: 32px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#p3{
+    margin: 0px 0px 0px 0px;
+    font-size: 72px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(117 255 53);
+}
+
+
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (max-width: 420px) {
+    .topnav{
+        width: 100%;
+        margin: 0em 0em 0em -1em;
+    }
+    #navicon{
+        display: none;
+    }
+    #heading_div{
+        display: none;
+    }
+    #image1 img{
+        margin: -6em 0em 0em 0em;
+        width: 100px;
+    }
+    #text{
+        margin: -10em 0em 6em 0em;
+    }
+    .form{
+        margin: 0em 0em 0em -3em;
+    }
+    
+}
