@@ -172,6 +172,7 @@ h1{
 
 #mc{
   margin: 11px 0px 0px 447px;
+  overflow: hidden;
 }
 
 #cs{
