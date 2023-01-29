@@ -416,7 +416,7 @@ body{
   #just_below_navbar img{
     width: 18.5em;
     height: 17em;
-    margin: 31em 0em 0em -35em;
+    margin: 31em 0em 0em -19em;
     border-radius: 10%;
   }
   #div2{
@@ -469,30 +469,30 @@ body{
   }
   #r0{
     margin: 1.5em 0em 0em 1.5em;
-    font-size: 1.2em;;
+    font-size: 1.2em;
   }
   #r1{
-    margin: -1.7em 0em 0em 8.5em;
-    font-size: 1.5em;;
+    margin: -1.2em 0em 0em 6.5em;
+    font-size: 1.8em;
   }
   #r2{
     margin: 1em 0em 0em 1em;
-    font-size: 1.7em;;
+    font-size: 1.7em;
   }
   #r3{
     margin: 1em 0em 0em 0.9em;
-    font-size: 2em;;
+    font-size: 2.4em;
   }#r4{
-    margin: -1.8em 0em 0em 3em;
-    font-size: 1.8em;;
+    margin: -1.2em 0em 0em 3em;
+    font-size: 3em;
   }
   #r5{
-    margin: -1.6em 0em 0em 3.9em;
-    font-size: 2em;;
+    margin: -1em 0em 0em 5.1em;
+    font-size: 2.5em;
   }
   #r6{
-    margin: -2.4em 0em 0em 6.3em;
-    font-size: 1.5em;;
+    margin: -1.1em 0em 0em 7em;
+    font-size: 2.2em;
   }
   #footer{
     margin: 0em 0em 1em 0em;
@@ -504,7 +504,7 @@ body{
   }
   .footer_divs h2{
     font-size: 1.1em;
-    margin: -3em -4em 0em 1em;
+    margin: -4em -11em 0em 1em;
   }
   #footer_div0{
     font-size: 1em;
@@ -512,7 +512,7 @@ body{
   }
   #footer_div1{
     font-size: 1em;
-    margin: 0em -1em 0em 0em;
+    margin: 0em 0em 0em 6em;
   }
   #footer_div2{
     font-size: 1em;
@@ -520,7 +520,7 @@ body{
   }
   #footer_div3{
     font-size: 1em;
-    margin: 0em -1em 0em 0em;
+    margin: 0em 0em 0em 8em;
   }
   #footer_div3 a img{
     width: 70%;
